@@ -10,7 +10,7 @@ public class ApplyForPositionTest extends BaseTest{
 	@Test
 	public void tc01_open_menu_tab() {
 		MainPage mainPage = new MainPage(driver);
-		mainPage.openManu();
+		mainPage.openMenu();
 	}
 	
 	@Test
