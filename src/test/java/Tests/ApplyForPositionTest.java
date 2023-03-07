@@ -14,9 +14,9 @@ public class ApplyForPositionTest extends BaseTest{
 	}
 	
 	@Test
-	public void tc02_click_on_creeres_teb() {
+	public void tc02_click_on_careers_teb() {
 		MenuPage menuPage = new MenuPage(driver);
-		menuPage.clickOnCreeresTab();
+		menuPage.clickOnCareersTab();
 	}
 	
 	@Test
