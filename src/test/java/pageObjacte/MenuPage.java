@@ -7,7 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MenuPage extends BasePage{
 
-	@FindBy(css = "div.menu-all-links > a:nth-child(5)") private WebElement careersBtn;
+	@FindBy(css = "div.menu-all-links > a:nth-child(5)")
+	private WebElement careersBtn;
 
 	public MenuPage(WebDriver driver) {
 		super(driver);
