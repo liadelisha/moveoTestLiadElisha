@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MainPage extends BasePage{
 
-	@FindBy(css = "div.menu-button.home > div > svg") private WebElement humburgerBtn;
+	@FindBy(css = "div.menu-button.home > div > svg") private WebElement hamburgerBtn;
 	@FindBy(css = ".cc-compliance [role=\'button\']") private WebElement cookiesBtn;
 
 	public MainPage(WebDriver driver) {
@@ -15,9 +15,9 @@ public class MainPage extends BasePage{
 		PageFactory.initElements(driver, this);
 	}
 
-	public void openManu() {
+	public void openMenu() {
 		click(cookiesBtn);
-		click(humburgerBtn);
+		click(hamburgerBtn);
 	}
 	
 }
