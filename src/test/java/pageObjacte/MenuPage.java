@@ -14,7 +14,7 @@ public class MenuPage extends BasePage{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void clickOnCreeresTab() {
+	public void clickOnCareersTab() {
 		click(careersBtn);	
 	}
 
