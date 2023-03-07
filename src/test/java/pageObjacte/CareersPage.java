@@ -56,7 +56,7 @@ public class CareersPage extends BasePage{
 	private WebElement reCaptchaFram;
 
 	String file;
-	String cv = "/Users/user/eclipse-workspace/AutomationTestMoveo/Liad Elisha CV.pdf‬‬";
+	//String cv = "/Users/user/eclipse-workspace/AutomationTestMoveo/Liad Elisha CV.pdf‬‬";
 
 	public CareersPage(WebDriver driver) {
 		super(driver);
